@@ -1,0 +1,153 @@
+*,
+::after,
+::before{
+  box-sizing: border-box;
+}
+container{
+  width: 1340px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body{
+  background-color: #FBFBFB;
+}
+.images{
+  display: grid;
+  grid-template-columns: repeat(3,200px);
+  grid-gap: 30px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.image img{
+  width: 100%;
+}
+
+.image:nth-child(1){
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.image:nth-child(2){
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image:nth-child(3){
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.image:nth-child(4){
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.image:nth-child(5){
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+
+.image:nth-child(6){
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.image:nth-child(7){
+  grid-column-start: 2 ;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.image:nth-child(8){
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 3;
+grid-row-end: 4;
+}
+.image:nth-child(9){
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.portfolio{
+  color: #F2F2F2;
+  font-size: 140px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  position: relative;
+  left: 220px;
+  margin: 0;
+  height: 20px;;
+}
+.more-btn{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #715C41;
+    border-radius: 0px 0px 0px 0px;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    transition: all 0.5s ease ;
+}
+.more-btn:hover{
+background-color: hsl(30, 6%, 69%);
+color: #715C41;
+transition: all 0.5s ease;
+}
+.btn{
+  margin-bottom: 50px;
+text-align: center;
+}
+
+.work-title{
+  color: #252525;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  width: 225px;
+  position: relative;
+  left: 385px;
+  height: 70px;
+}
+.work-text{
+  color: #8B8B8B;
+  font-size: 16px;
+  font-weight: 300;
+  width: 527px;
+  position: relative;
+  left: 385px;
+}
+.vintage{
+  position: relative;
+  bottom: 170px;
+}
+.turkish{
+  position: relative;
+  right: 230px;
+  top: 165px;
+}
+.page{
+  justify-content: center;
+  width: 880px;
+}
+.image{
+  transition: 0.5s ease;
+}
+.image:hover{
+  filter: brightness(0.27);
+  transition: 0.5s ease;
+
+}
